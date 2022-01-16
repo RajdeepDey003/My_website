@@ -8,6 +8,10 @@
 
 body{
     background-color: black;
+    background-image: url(/Image/BG_image2.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 .me{
     display: block;
@@ -34,7 +38,7 @@ body{
     margin-top: 0%;
     position: relative;
     width: 100%;
-    background: black;
+    background:none;
     color: white;
     opacity: 1;
     z-index: 100;
@@ -303,7 +307,7 @@ p{
     
 }
 .instagram{
-    color: rgb(255, 0, 106);
+    color: rgb(245, 71, 144);
     text-decoration: none;
     
 }
@@ -323,28 +327,29 @@ p{
     background-color: rgb(17, 0, 255);
     color: white;
     border-radius: 45%;
-    padding: 1px 10px;
-    font-size:110%;
+    padding: 0.5px 10px;
+    font-size:100%;
 }
 .instagram:hover{
     background-color: rgb(255, 0, 106);;
     color: white;
     border-radius: 45%;
-    padding: 1px 10px;
-    font-size: 110%;
+    padding: 0.5px 10px;
+    font-size: 100%;
 }
 .twitter:hover{
     background-color: rgb(0, 119, 255);
     color: white;
     border-radius: 45%;
-    padding: 1px 10px;
-    font-size: 110%;
+    padding: 0.5px 10px;
+    font-size: 100%;
 }
 .active{
-    color: rgb(255, 0, 0);
+    color: rgb(230, 164, 164);
     font-family: cursive;
     text-align: center;
     margin-top: -1em;
+
 }
 ::-webkit-scrollbar{
     width: 13px;
