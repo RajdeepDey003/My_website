@@ -164,7 +164,7 @@ body{
 /*putting Responsiveness */
 @media only screen and (max-width: 1500px){
     .main{
-        left:50px
+        left:0px
     }
 }
 @media only screen and (max-width: 1300px){
@@ -397,7 +397,7 @@ body{
     position: fixed;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 200px;
+    margin-top: 157px;
     left: 0%;
     padding: 7px;
     width: max-content;
@@ -628,7 +628,7 @@ z-index: -1;
     .main{
         margin-top: 36%;
         padding-left: 0%;
-        margin: 40% 2px;
+        margin: 60% 5px;
     }
     .info p, .info p em{
         font-size: 20px;
@@ -636,6 +636,8 @@ z-index: -1;
     }
 @media only screen and (max-width: 300px){
     .main{
-        margin-top: 50px;
+        margin-top: 150px;
+        width: 250px;
     }
+
 }
