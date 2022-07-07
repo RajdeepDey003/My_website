@@ -171,9 +171,9 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     align-items: center;
     justify-content: center;
-    position: fixed;
+    position: absolute;
     min-height: 10rem;
-    margin: 5rem 8rem;
+    margin: 5rem 11.5vma;
     padding: 50px 50px;
     border: 2px solid white;
     border-radius: 15px;
@@ -636,8 +636,8 @@ z-index: -1;
     }
     .image{
         position: auto;
-        left: 80px;
-        top: -169px;
+        left: 92px;
+        top: 43px;
     }
     .main{
         margin-top: 36%;
